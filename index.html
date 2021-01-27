@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Rock Paper Scissors</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Rock PaperScissors game using HTML, CSS and Javascript.">
+	<meta name="author" content="Pranjal Roy">
+	<meta name="keywords" content="Rock Paper Scissors, game, webgame, online game">
+	<meta name="viewport" content="width=devcie-width, initial-scale=0.95">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1>Rock Paper Scissors</h1>
+	</header>
+
+	<!-- The scoreboard is here.-->
+	<div class="scoreboard">
+		<div class="badge" id="user-label">User</div>
+		<div class="badge" id="comp-label">Comp</div>
+		<span id="user-score">0</span> : <span id="comp-score">0</span>
+	</div>
+
+	<div class="choices" id="clash">
+		<div class="label">You : </div>
+		<div class="choice" id = "user-choice-div">
+			<img src="rock.png" id = "user-image">
+		</div>
+		<div class="label"> VS </div>
+		<div class="choice" id = "comp-choice-div">
+			<img src="rock.png" id = "computer-image">
+		</div>
+		<div class="label"> : Comp</div>
+	</div>
+
+	<div class="result">
+		<p>Let's Play</p>
+	</div>
+
+	<div class="choices">
+		<div class="button" id = "r">
+			<img src="rock.png">
+		</div>
+		<div class="button" id = "p">
+			<img src="paper.png">
+		</div>
+		<div class="button" id = "s">
+			<img src="scissors.png">
+		</div>
+	</div>
+
+	<p id="action-message">Make your move.</p>
+
+	<script src = "script.js" charset = "utf-8" type="text/javascript" ></script>
+
+</body>
+</html>

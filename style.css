@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(19, 0, 71)
+}
+
+header {
+	background: white ;
+	padding: 20px;
+	color: rgb(42, 48, 153);
+	text-align: center;
+	font-family: "Rockwell", sans-serif
+}
+
+header > h1{
+	font-size: 40px;
+}
+
+.scoreboard {
+	margin: 20px auto;
+	border : 7px solid white ;
+	width: 300px;
+	color: white;
+	font-size: 36px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 12px 25px;
+	font-family: "Rockwell", sans-serifs;
+	position: relative;
+}
+
+.badge{
+	background: rgb(219, 9, 33);
+	color: white;
+	font-size: 25px;
+	padding: 5px 10px;
+	font-family: "Rockwell", sans-serif
+}
+
+#user-label {
+	position: absolute;
+	top: 13px;
+	left: -43px;
+}
+
+#comp-label {
+	position: absolute;
+	top: 13px;
+	right: -53px;
+}
+
+.result {
+	color: white;
+	margin: 53px;
+	font-size: 34px;
+	font-family: "Rockwell", sans-serif;
+	text-align: center;
+	font-weight: 700;
+}
+
+.choices {
+	margin: 30px 0;
+	text-align: center;
+}
+
+.choice {
+	display: inline-block;
+	background-color: rgb(19, 0, 71);
+	border: 12px solid rgb(255, 247, 0);
+	border-radius: 50%;
+	margin: 0 25px;
+	padding: 20px;
+	transition: all 0.8s ease;
+	box-shadow: 0px 0px 30px rgb(255, 247, 0);
+	align-self: center;
+}
+
+.choice > img{
+	text-align: center;
+	width: 50px;
+	padding: 0;
+}
+
+#action-message {
+	margin-top: 60px;
+	text-align: center;
+	color: white;
+	font-family: "Rockwell", sans-serif;
+	font-size: 34px;
+}
+
+#comp-choice-div {
+	background: rgba(0,0,0,0);
+	cursor: context-menu;
+}
+
+#user-choice-div {
+	background: rgba(0,0,0,0);
+	cursor: context-menu;
+}
+
+.greenGlow {
+	border : 12px solid rgb(77, 255, 0);
+	box-shadow: 0px 0px 20px rgb(77, 255, 0);
+}
+
+.redGlow {
+	border : 12px solid rgb(255, 0, 0);
+	box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+
+.grayGlow {
+	border : 12px solid rgb(160, 159, 179);
+	box-shadow: 0px 0px 20px rgb(160, 159, 179);
+}
+
+#computer-image {
+	transform: rotate(-90deg);
+}
+
+#user-image {
+	transform: rotate(90deg);
+}
+
+.label {
+	font-size: 30px;
+	font-weight: 400;
+	font-family: "Rockwell", sans-serif;
+	color: white;
+	display: inline-block;
+}
+
+.button {
+	display: inline-block;
+	border: 12px solid rgb(255,255,255);
+	border-radius: 50%;
+	margin: 0 25px;
+	padding: 20px;
+	transition: all 0.8s ease;
+	align-self: center;
+	box-shadow: 0 0 10px rgb(255,255,255);
+}
+
+.button:hover {
+	cursor: pointer;
+	background: rgb(85, 49, 245);
+}
+
+.button > img {
+	width : 50px;
+}
+
+#clash {
+	margin-top: 45px;
+	font-size: 34px;
+}
