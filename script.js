@@ -1,3 +1,4 @@
+//Javascript code
 var userScore = 0;
 var computerScore = 0;
 const userScore_span= document.getElementById('user-score');
@@ -28,11 +29,11 @@ return " defeats ";
 
 function change_image(element,letter) {
 if (letter === "r") {
-element.src = "rock.png"
+element.src = "Images/rock.png"
 } else if (letter === "s") {
-element.src = "scissors.png"
+element.src = "Images/scissors.png"
 } else if (letter === "p") {
-element.src = "paper.png"
+element.src = "Images/paper.png"
 }
 }
 
